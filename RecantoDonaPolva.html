@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recanto Dona Polva</title>
+    <style>
+        /* Matte Background */
+        body {
+            background: url(https://scontent.fsqx2-1.fna.fbcdn.net/v/t51.75761-15/475553619_18054527591483524_7055078520873343805_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5ZPaaGECLJoQ7kNvgG0-9Ut&_nc_oc=AdjSwMn81UUzJlvCuHR1jlscoxzz6Mjl9LOTITl0WhcPinoq13NacwhfCj5Q5VYAoFOTjWh9oNc-O62d4vFQI-ws&_nc_zt=23&_nc_ht=scontent.fsqx2-1.fna&_nc_gid=1JHEgHs14EQa1yG9fU8b4g&oh=00_AYEZzVKnsbJMQMW5sj3YRWsmiV38m2UxcGfbEs7O8JhvdA&oe=67DB2EC2);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+            background-size: cover;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+        }
+
+        /* Bordeaux Box */
+        .box {
+            background-color: #6A0D3D;
+            padding: 20px;
+            width: 80%;
+            max-width: 1000px;
+            display: flex;
+            align-items: flex-start; /* Alinha o conteúdo ao topo */
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Image */
+        .image {
+            display: block;
+            width: 40%;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        /* Text Content */
+        .text-content {
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+
+        /* Title */
+        .title {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-family: monospace;
+            text-align: center;
+        }
+
+        /* Text */
+        .text {
+            font-size: 16px;
+        }
+
+        @media (max-width: 600px) {
+            .box {
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+            }
+
+            .image {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+
+            .text-content {
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <img src="https://scontent.fsqx2-1.fna.fbcdn.net/v/t51.75761-15/475553619_18054527591483524_7055078520873343805_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_ohc=5ZPaaGECLJoQ7kNvgG0-9Ut&_nc_oc=AdjSwMn81UUzJlvCuHR1jlscoxzz6Mjl9LOTITl0WhcPinoq13NacwhfCj5Q5VYAoFOTjWh9oNc-O62d4vFQI-ws&_nc_zt=23&_nc_ht=scontent.fsqx2-1.fna&_nc_gid=1JHEgHs14EQa1yG9fU8b4g&oh=00_AYEZzVKnsbJMQMW5sj3YRWsmiV38m2UxcGfbEs7O8JhvdA&oe=67DB2EC2" alt="Sample Image" class="image">
+        <div class="text-content">
+            <div class="title">Recanto Dona Polva</div>
+            <p class="text"></p>
+        </div>
+    </div>
+
+</body>
+</html>
